@@ -1,0 +1,12 @@
+Installation of OWASP Juice shop In Kali Linux for Security Assessment 
+
+Operation System : Kali Linux 
+Tool Used - Docker 
+
+Installation 
+Step 1- Google "Github Owasp Juice Shop"
+Step 2- Update the kali with these commands 
+      2.1 sudo apt update 
+      2.2 sudo apt install docker.io
+Step 3- docker pull bkimminich/juice-shop
+Step 4- docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice shop
